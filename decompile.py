@@ -130,7 +130,7 @@ if __name__== "__main__":
     parser.add_argument('-r', action='store_true', help="Process all files in the directory target and subdirectories")
     parser.add_argument('-skip', action='store_true', help="Upon errors, skip class or method and continue decompiling")
     parser.add_argument('-xmagicthrow', action='store_true')
-    parser.add_argument('target',help='Name of class or jar file to decompile')
+    parser.add_argument('-target', help='Name of class or jar file to decompile')
     args = parser.parse_args()
 
     path = []
